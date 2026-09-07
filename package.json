@@ -1,0 +1,14 @@
+{
+  "name": "hyperliquid-paper",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "PAPER-only Hyperliquid harness. Fake $1000 USDC equity. Sims-as-live on real books. LIVE OFF.",
+  "scripts": {
+    "paper": "node src/paper.mjs",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
